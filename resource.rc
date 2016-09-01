@@ -1,0 +1,118 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 273, 183
+STYLE DS_MODALFRAME | DS_CENTER | DS_CENTERMOUSE | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "MyMusic"
+FONT 10, "System"
+BEGIN
+    LISTBOX         IDC_LIST3,0,63,256,120,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_ACCEPTFILES
+    CTEXT           "信息",IDC_STATIC1,0,0,30,16,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,31,0,208,17,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,165,22,45,17,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "Up↑",IDC_UP,239,42,34,20
+    PUSHBUTTON      "暂停",IDC_PAUSE,61,43,32,19
+    PUSHBUTTON      "播放",IDC_PLAY,94,43,37,19
+    PUSHBUTTON      "继续",IDC_CONTINUE,132,43,37,19
+    PUSHBUTTON      "停止",IDC_STOP,169,43,36,19
+    PUSHBUTTON      "Down↓",IDC_DOWN,0,43,30,19
+    PUSHBUTTON      "添加",IDC_ADD,256,62,17,30,BS_MULTILINE
+    PUSHBUTTON      "删除",IDC_DELETE,256,94,17,30,BS_MULTILINE
+    PUSHBUTTON      "关于",IDC_ABOUT,256,125,17,29,BS_MULTILINE
+    PUSHBUTTON      ">>",IDC_NEXT,206,43,31,19
+    PUSHBUTTON      "<<",IDC_LAST,30,43,30,19
+    CTEXT           "当前",IDC_STATIC,1,19,28,18,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT4,31,22,58,16,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT3,95,22,60,17,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "关闭",IDC_X,256,155,17,28,BS_MULTILINE
+    EDITTEXT        IDC_EDIT5,227,22,46,17,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "系统时间",IDC_STATIC,237,2,36,15,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 175
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
